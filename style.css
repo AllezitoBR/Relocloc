@@ -290,17 +290,17 @@ section{
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 4rem;
 }
 
 .menu .box-container .box{
-    padding: 5rem;
+    padding: 8rem;
     text-align: center;
     border: var(--border);
 }
 
 .menu .box-container .box img{
-    height: 15rem;
+    height: 18rem;
 }
 
 .menu .box-container .box h3{   
@@ -343,13 +343,13 @@ section{
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.0rem;
+    gap: 3rem;
 }
 
 .products .box-container .box{
     text-align: center;
     border: var(--border);
-    padding: 1rem;
+    padding: 4rem;
 }
 
 .products .box-container .box .icons a{
@@ -420,7 +420,7 @@ section{
 .review .box-container .box{
     border: var(--border);
     text-align: center;
-    padding:4rem 2rem;
+    padding:8rem 2rem;
 }
 
 .review .box-container .box p{
